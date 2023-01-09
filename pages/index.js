@@ -23,8 +23,6 @@ export default function Home() {
     setLoading(false);
   };
 
-  console.log("WEATHER", weather);
-
   if (loading) {
     return <Spinner />;
   } else {
